@@ -59,7 +59,7 @@ create_strucutre <- function(
   # write files to readme
   writeLines(c(
     paste("Project Name:\n", project_name),
-    paste("Project Description:\n", project_descripton),
+    paste("Project Description:\n", project_description),
     paste("author:\n", author)
   ), file("readme.md"))
 
